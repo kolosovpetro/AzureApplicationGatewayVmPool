@@ -7,5 +7,5 @@ variable "location" {
 variable "prefix" {
   type        = string
   description = "Prefix for all resources"
-  default = "d01"
+  default     = "d01"
 }
