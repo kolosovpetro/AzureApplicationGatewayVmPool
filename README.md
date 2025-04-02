@@ -1,13 +1,13 @@
-﻿## Azure Application Gateway with Linux VMS backend
+﻿# Azure Application Gateway with Linux VMS backend
 
-### Provision commands
+## Provision commands
 
 - terraform plan
 - terraform apply
 - .\Deploy-Dev-Page.ps1
 - .\Deploy-Qa-Page.ps1
 
-### DNS
+## DNS
 
 - http://agwy-vm-dev.razumovsky.me
 - https://agwy-vm-dev.razumovsky.me
