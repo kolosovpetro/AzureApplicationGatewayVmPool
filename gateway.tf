@@ -89,7 +89,7 @@ resource "azurerm_application_gateway" "app_gateway" {
       name                        = request_routing_rule.value.http_routing_rule_name
       http_listener_name          = request_routing_rule.value.http_listener_name
       rule_type                   = "Basic"
-      priority                    = request_routing_rule.value.priority_https
+      priority                    = request_routing_rule.value.priority_http
       redirect_configuration_name = request_routing_rule.value.redirect_configuration_name
     }
   }
