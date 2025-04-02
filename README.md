@@ -9,10 +9,10 @@
 
 ## DNS
 
-- http://agwy-vm-dev.razumovsky.me
-- https://agwy-vm-dev.razumovsky.me
-- http://agwy-vm-qa.razumovsky.me
-- https://agwy-vm-qa.razumovsky.me
+- http://agwy-vm-dev.razumovsky.me (should redirect to blue)
+- https://agwy-vm-dev.razumovsky.me (blue)
+- http://agwy-vm-qa.razumovsky.me (should redirect to green)
+- https://agwy-vm-qa.razumovsky.me (green)
 
 ## Certificates
 
