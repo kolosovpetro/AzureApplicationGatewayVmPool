@@ -1,4 +1,4 @@
-﻿# Azure Application Gateway with Linux VMS backend
+# Azure Application Gateway with Linux VMS backend
 
 ## Provision commands
 
