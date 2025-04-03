@@ -58,6 +58,7 @@ jobs:
           echo "id_rsa" > id_rsa.pub
           echo "pass" > password.txt
           echo "pass" > certificate_password.txt
+          echo "pass" > razumovsky.me.pfx
 
       - name: Terraform Init
         run: terraform init -backend=false
