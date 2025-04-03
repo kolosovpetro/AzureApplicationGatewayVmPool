@@ -13,3 +13,5 @@ and this project adheres to [Semantic Versioning v2.0.0](https://semver.org/spec
 - Configure app gateway
 - Configure listeners
 - Configure routing rules
+- Fix tf destroy issue
+- Fix CI

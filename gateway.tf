@@ -104,6 +104,11 @@ resource "azurerm_application_gateway" "app_gateway" {
       include_query_string = true
     }
   }
+
+  depends_on = [
+    module.virtual_machine_dev,
+    module.virtual_machine_qa
+  ]
 }
 
 data "azurerm_application_gateway" "gateway_data" {
