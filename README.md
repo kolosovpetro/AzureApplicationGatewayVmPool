@@ -6,6 +6,7 @@
 - terraform apply
 - .\Deploy-Dev-Page.ps1
 - .\Deploy-Qa-Page.ps1
+- .\cloudflare\Main.ps1 -ApiToken $env:CLOUDFLARE_API_KEY -ZoneName "razumovsky.me"
 
 ## DNS
 
